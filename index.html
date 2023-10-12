@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <table border="5" class="tabela" >
+        <form action="mailto:luciano.coelhho@gmail.com"  >
+        <tr>
+            <td>
+                <h1>Registro Pessoal </h1>
+                <table border="5" class="dadosPessoais">  
+                    <tr>
+                        <td>
+                            <h4>Dados pessoais</h4>
+                            Nome completo: <br>
+                            <input type="text"  placeholder="seu Nome" required> 
+                            <br><br>
+                            Selecione sua Profissão: 
+                            <select name="Profissao">
+                                <option value="desempregado">Desempregado</option>  
+                                <option value="medico">Medico</option>
+                                <option value="eletricista">Eletricista</option>
+                                <option value="garoto de programa">Garoto de Programa</option>
+                                <option value="metalurgico">Metalurgico</option>
+                                <option value="policial">Policial</option>
+                                <option value="engenheiro/Uber">Engenheiro/Uber</option>  
+                            </select> 
+                        </td>
+                    </tr>
+                </table>
+
+                <table border="5" class="localizacao">
+                    <tr>
+                        <td>
+                            <h4>Localizacao</h4>
+                            E-mail: <br>
+                            <input type="text"  placeholder="seu E-mail" required> 
+                            <br><br>
+                            Rua: <br>
+                            <input type="text"  placeholder="sua Rua" > 
+                        </td>
+                    </tr>
+                </table>
+
+                <table border="5" class="faixaEtaria">
+                    <tr>
+                        <td>
+                            <h4>Faixa Etaria</h4>
+                            <main id="tres">
+                                <input type="radio" name="faixaEtaria">Ate 20 anos <br> 
+                                <input type="radio" name="faixaEtaria">Mais de 20 ate 30 anos <br>
+                                <input type="radio" name="faixaEtaria">Mais de 30 ate 40 anos <br> 
+                            </main>  
+                            <main id="outrosTres">
+                                <input  type="radio" name="faixaEtaria">Mais de 40 ate 50 anos <br>
+                                <input  type="radio" name="faixaEtaria">Mais de 50 ate 60 anos <br> 
+                                <input  type="radio" name="faixaEtaria">Mais de 60 <br>                        
+                            </main>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table border="5" class="esportesPratica">
+                    <tr>
+                        <td>
+                            <h4>Esportes </h4>
+                            <input id="esportes"  type="checkbox">Futebol de campo <br> 
+                            <input id="esportes"  type="checkbox">Futebol de salão <br>
+                            <input id="esportes"  type="checkbox">Futebol society <br> 
+                            <input id="esportes"  type="checkbox">Volley de quadra <br>
+                            <input id="esportes"  type="checkbox">Volley de praia <br> 
+                            <input id="esportes"  type="checkbox">Natação em piscina<br>
+                            <input id="esportes"  type="checkbox">Natação em mar aberto<br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table border="5" class="comentario">
+                    <tr>
+                        <td>
+                            <h4>Dados Pessoais</h4>
+                            Descrição Geral:<br>
+                            <TEXTAREA ROWS="5" COLS="60"></TEXTAREA><br>
+                        </td>
+                    </tr>
+                </table>
+
+               <div class="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+               </div>
+               
+            </form>   
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela{
+    background-color: rgb(193, 241, 226);
+    width: 725px;
+    height: 100px;
+}
+
+.dadosPessoais{
+    width: 270px;
+    margin: 80px;
+    margin-top: 30px;
+}
+
+.localizacao{
+    width: 270px;
+    float: right;
+    margin: 80px;
+    margin-top: -254px;
+}
+
+.faixaEtaria{
+    width: 555px;
+    margin: 80px;
+    position: relative;
+    top: -60px;
+}
+
+.esportesPratica{
+    width: 555px;
+    margin: 80px;
+    margin-top: -120px;
+}
+
+.botoes{
+   margin: 80px;
+   position: relative;
+   top: -70px;
+}
+
+.comentario{
+    width: 555px;
+    margin: 80px;
+    margin-top: -60px;
+}
+
+.comentario input[type="text"] {
+    width: 350px; 
+    box-sizing: border-box;
+    height: 130px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+#outrosTres{
+   margin-left: 350px;
+   margin-top: -60px;
+}
+
+#tres, h4, #esportes{
+    margin-left: 10px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
